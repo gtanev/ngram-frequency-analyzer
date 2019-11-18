@@ -26,6 +26,9 @@ The integer counter in the upper left corner of the text area shows the number o
 The integer counter in the upper right corner of the visualization area shows the total number of n-grams detected in the input text.
 
 
+![screenshot](https://lh3.googleusercontent.com/P2NwwNOQUF2rT2V6CRqaAqoHRdt6owcUzsxq3jxYasYGn1O5IrFLbojHsBSLUWcJM-Wa6uiwldU0NbSIURpw9U8CCcmUlpDXY34-El8h-FKhrRdqHz4YaojN19Pt0SqxXFHHTooVEiOE1V6s0yZCVbg3OL-DfzaIHBc_lIi12_NBBNImU-p_MVPHxS6ieSv-9L8MnvluY8WurK5js9a23_CNzdFCZm3-uceP8NJn7Gn01JpQ2fS8vIh7wYc1KHKjee3J2Aoe-9wc_dq_FQqODtDctRiVbC74G49R84zjCxoJECOQIEE5EnHQE1vuBNI9KR2cUbzWFd7dRqcmdy96PmGNHT-JZ34wkxKUyf_POvyw4rfESwnZlRFETxD6v_ZKamzwAIy9j3qt8Kl4uex9qYxMz-SFUhivd7UUASdxLAX-uBv3u--NK2LApmbuXIRTDq5ktuPBdeONwIOy4jLmdZLdzX_8jEF91urxuRsoEBVopNcbY9BBDT88lNyeZ6uBCKi4cRVBFf4rGpq9ucDB2dFHKx2GWCE7X3P-jknaozKujGK5lKJvPNaqYLxhxkOyd85ewguNaZECDhqHOeEFhB8WCKUWrng08AH3ToOI8v5AUyeDeQEKMoR_IVKziC9eWa7F3XSHnfzLEsG2-yZsWkbzd8oC-TPpDB4u_ZtVPFCtc-I0k25RMJEeU-Xyv1nEtkG7PLehzJswC8QW42Rsu3ZQwudhUm9UAFGhSwqAVFvgxS8-=w1484-h835-no)
+
+
 #### Main frameworks and libraries
 
 - React
