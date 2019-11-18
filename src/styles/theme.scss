@@ -1,0 +1,18 @@
+$primary-custom: rgb(40, 90, 180);
+$secondary-custom: rgb(220, 85, 180);
+$light-custom: whitesmoke;
+
+$theme-colors: (
+    "primary": $primary-custom,
+    "secondary": $secondary-custom,
+    "light": $light-custom
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+:export {
+  primary: $primary-custom;
+  secondary: $secondary-custom;
+  light: $light-custom;
+  dark: $dark;
+}

@@ -1,0 +1,157 @@
+@import "theme";
+
+.app-view {
+  position: relative;
+  background: whitesmoke;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  color: black;
+}
+
+.app-footer {
+  font-size: smaller;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.app-header {
+  padding: 1em 0 0 0;
+  align-self: center;
+}
+
+.input-form-footer-row .col {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.input-form-input-group {
+  flex-wrap: nowrap;
+  padding: 0;
+
+  &:first-of-type {
+    padding-left: 0;
+    padding-right: 0.3rem;
+  }
+
+  &:last-of-type {
+    padding-left: 0.3rem;
+    padding-right: 0;
+  }
+}
+
+.canvas {
+  flex: 1;
+}
+
+.canvas > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.canvas-toast-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.canvas-pane-container {
+  flex: 1;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.6rem !important;
+}
+
+.canvas-nav-item-text {
+  font-size: large;
+  margin-left: 10px;
+}
+
+.canvas-ngram-counter {
+  align-self: flex-end;
+  margin-left: auto;
+  margin-bottom: 0.5rem;
+}
+
+.canvas-table-header SVG {
+  cursor: pointer;
+
+  &:hover {
+    //background-color: $secondary-custom;
+    outline: 1px solid $primary-custom;
+  }
+
+  &:first-of-type {
+    margin-left: 1rem;
+  }
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  content: none;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-target {
+  color: rosybrown;
+  box-shadow: 0 0 13px 3px rosybrown;
+  background-color: transparent;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  padding: 0;
+}
+
+.modal-content {
+  /*min-height: 100%;
+  height: auto;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal.fade .modal-dialog {
+  transform: scale(0.5);
+  top: 200px;
+  opacity: 0;
+  transition: all .4s;
+}
+
+.modal.fade.show .modal-dialog {
+  transform: scale(1) translate3d(0, -200px, 0);
+  opacity: 1;
+}
+
+@media (max-height: 650px) {
+  .app-container {
+    height: 100%;
+  }
+
+  .canvas-pane-container {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .input-form-footer-row .col {
+    padding-bottom: 8px;
+  }
+
+  .modal-footer {
+    display: none;
+  }
+}
